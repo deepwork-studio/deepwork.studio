@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Deep Work Starter`,
-    description: `Kick off your next project with Deep Work Studio & Gatsby`,
+    title: `Deep Work Studio`,
+    longTitle: `Deep Work Studio | Blockchain Design Studio`,
+    description: `your blockchain product design partner`,
     author: `@deepwork_studio`
   },
   plugins: [
@@ -19,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-deepwork-starter`,
+        name: `deepwork-studio`,
         short_name: `deepwork`,
         start_url: `/`,
         background_color: `#000`,

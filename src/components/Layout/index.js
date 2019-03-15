@@ -7,7 +7,8 @@
 
 import React from "react";
 import PropTypes from "prop-types";
-import { Box, Text, Link } from "rebass";
+import { Box } from "rebass";
+import "modern-normalize";
 
 import Theme from "../Theme";
 
@@ -19,15 +20,7 @@ const Layout = ({ children }) => {
   return (
     <Theme>
       <>
-        <Box as="header">{title}</Box>
         <Box as="main">{children}</Box>
-        <Box as="footer">
-          <Text as="p">
-            © {new Date().getFullYear()}, Built by
-            {` `}
-            <Link href="https://deepwork.studio">Deep Work Studio</Link>
-          </Text>
-        </Box>
       </>
     </Theme>
   );

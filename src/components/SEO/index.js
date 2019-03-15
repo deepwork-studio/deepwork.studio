@@ -22,6 +22,7 @@ const SEO = ({ description, lang, meta, title }) => {
         lang
       }}
       title={title}
+      defaultTitle={siteMetadata.longTitle}
       titleTemplate={`%s | ${siteMetadata.title}`}
       meta={[
         {
