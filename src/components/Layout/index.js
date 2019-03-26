@@ -8,23 +8,19 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Box } from "rebass";
+
 import "modern-normalize";
+import "typeface-libre-franklin";
 
 import Theme from "../Theme";
 
-import { useSiteMetadata } from "../../hooks";
-
-const Layout = ({ children }) => {
-  const { title } = useSiteMetadata();
-
-  return (
-    <Theme>
-      <>
-        <Box as="main">{children}</Box>
-      </>
-    </Theme>
-  );
-};
+const Layout = ({ children }) => (
+  <Theme>
+    <Box as="main" css={{ overflowX: "hidden" }}>
+      {children}
+    </Box>
+  </Theme>
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired

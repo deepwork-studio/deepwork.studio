@@ -5,9 +5,14 @@ export default {
     blue: "#07c",
     lightgray: "#f6f6ff"
   },
+  fontWeights: {
+    black: 900
+  },
   space: [0, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
-    sans: "system-ui, sans-serif",
+    sneak: "Sneak, sans-serif",
+    sans: "Sneak, sans-serif",
+    libreFranklin: `'Libre Franklin', sans-serif`,
     mono: "Menlo, monospace"
   },
   shadows: {
