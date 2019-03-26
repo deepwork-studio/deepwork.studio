@@ -11,6 +11,7 @@ import { Box } from "rebass";
 
 import "modern-normalize";
 import "typeface-libre-franklin";
+import "./fonts.css";
 
 import Theme from "../Theme";
 

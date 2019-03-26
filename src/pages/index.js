@@ -29,7 +29,7 @@ const ColoredPanel = () => (
         #f87998,
         #fdc67e
       );
-      border-radius: .5em;
+      border-radius: 0.5em;
 
       display: none;
       @media only screen and (min-width: 52em) {
@@ -42,9 +42,9 @@ const ColoredPanel = () => (
 const Link = props => (
   <RebassLink
     fontSize={3}
-    fontFamily="sneak"
     color="black"
     css={css`
+      font-family: Sneak, sans-serif;
       text-decoration: none;
 
       &:hover {
@@ -83,6 +83,7 @@ const IndexPage = () => (
         <Heading
           as="h1"
           fontFamily="sneak"
+          fontWeight="black"
           fontSize={[5, 6]}
           lineHeight={1.5}
           css={{ maxWidth: 720 }}
@@ -92,11 +93,16 @@ const IndexPage = () => (
         </Heading>
       </Box>
 
-      <Flex as="section" justifyContent="flex-end" my={["25vh", null, "35vh"]} px={3}>
+      <Flex
+        as="section"
+        justifyContent="flex-end"
+        my={["25vh", null, "35vh"]}
+        px={3}
+      >
         <Box
           width={["100%", null, "65%"]}
-          px={[0,null, 5]}
-          pb={[0,null, 5]}
+          pl={[0, null, 5]}
+          pb={[0, null, 5]}
           css={{ position: "relative" }}
         >
           <ColoredPanel />
@@ -112,6 +118,7 @@ const IndexPage = () => (
         <Heading
           as="h2"
           fontFamily="sneak"
+          fontWeight="black"
           fontSize={[5, 6]}
           lineHeight={1.2}
           mb={4}
@@ -129,7 +136,7 @@ const IndexPage = () => (
           >
             @deepwork_studio
           </Link>
-          <Link href="">Meet the team on Notion</Link>
+          {/* <Link href="">Meet the team on Notion</Link> */}
         </Flex>
       </Box>
     </Container>

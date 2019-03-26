@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Sneak;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../fonts/Sneak-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: Sneak;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../../fonts/Sneak-Black.woff2) format("woff2");
+}
