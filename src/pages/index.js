@@ -77,6 +77,7 @@ const Paragraph = props => (
 const IndexPage = () => (
   <Layout>
     <SEO />
+
     <Container>
       <Box as="section" my={["25vh", null, "35vh"]} px={3}>
         <Wordmark primary="#FF9487" secondary="#FF7395" />

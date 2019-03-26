@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Deep Work Studio`,
     longTitle: `Deep Work Studio | Blockchain Design Studio`,
-    description: `your blockchain product design partner`,
+    description: `Releasing User-Focused Blockchain Products`,
     author: `@deepwork_studio`
   },
   plugins: [
