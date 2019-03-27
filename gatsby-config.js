@@ -28,6 +28,15 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/favicon.png` // This path is relative to the root of the site.
       }
+    },
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        // allPageHeaders: [
+        //   `Link: </static/Sneak-Regular.woff2> rel=preload as=font crossorigin type=font/woff2`,
+        //   `Link: </static/Sneak-Black.woff2> rel=preload as=font crossorigin type=font/woff2`
+        // ]
+      }
     }
   ]
 };

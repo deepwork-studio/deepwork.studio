@@ -70,7 +70,7 @@ const Link = props => (
 
 const Wordmark = ({ primary, secondary }) => (
   <Text
-    fontWeight="black"
+    fontWeight={900}
     letterSpacing={0.44}
     fontSize={32}
     fontFamily="libreFranklin"
