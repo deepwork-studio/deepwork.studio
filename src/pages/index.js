@@ -164,7 +164,9 @@ const IndexPage = () => (
             >
               @deepwork_studio
             </Link>
-            {/* <Link href="">Meet the team on Notion</Link> */}
+            <Link href="https://www.notion.so/The-Deep-Work-Team-dbb0d5b926454f8b91db19cc1186087e">
+              Meet the team on Notion
+            </Link>
           </Flex>
         </Box>
       </Grid>
