@@ -21,7 +21,7 @@ const Grid = props => (
     css={css`
       display: grid;
       grid-template-rows: 100vh;
-    grid-auto-rows: 50vh;
+      grid-auto-rows: 50vh;
       align-items: center;
     `}
   />
@@ -131,7 +131,11 @@ const IndexPage = () => (
                 <Text as="span" fontWeight="black" color="ux">
                   UX
                 </Text>{" "}
-                experience into delightful deliverables to teams like you.
+                experience into delightful deliverables to teams like{" "}
+                <Text as="span" fontWeight="black">
+                  you
+                </Text>
+                .
               </Paragraph>
             </Box>
           </Flex>

@@ -23,10 +23,10 @@ module.exports = {
         name: `deepwork-studio`,
         short_name: `deepwork`,
         start_url: `/`,
-        background_color: `#000`,
+        background_color: `#fff`,
         theme_color: `#fff`,
         display: `minimal-ui`,
-        icon: `src/images/deepwork-logo.png` // This path is relative to the root of the site.
+        icon: `src/images/favicon.png` // This path is relative to the root of the site.
       }
     }
   ]
