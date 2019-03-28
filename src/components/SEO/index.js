@@ -16,6 +16,18 @@ const SEO = ({ description, lang, meta, title }) => {
 
   const metaDescription = description || siteMetadata.description;
 
+  const schemaOrgWebPage = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Deep Work Studio",
+    url: "https://deepwork.studio",
+    sameAs: [
+      "https://twitter.com/deepwork_studio",
+      "https://www.linkedin.com/company/deep-work-studio/about/",
+      "https://github.com/deepwork-studio/"
+    ]
+  };
+
   return (
     <Helmet
       htmlAttributes={{
@@ -58,7 +70,11 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription
         }
       ].concat(meta)}
-    />
+    >
+      <script type="application/ld+json">
+        {JSON.stringify(schemaOrgWebPage)}
+      </script>
+    </Helmet>
   );
 };
 
