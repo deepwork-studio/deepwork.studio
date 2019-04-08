@@ -4,6 +4,7 @@ import { css } from "styled-components";
 
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
+import Partners from "../components/Partners";
 
 const Container = props => (
   <Box
@@ -133,7 +134,7 @@ const IndexPage = () => (
                 </Text>{" "}
                 experience into delightful deliverables to teams like{" "}
                 <Text as="span" fontWeight="black">
-                  you
+                  <Partners />
                 </Text>
                 .
               </Paragraph>

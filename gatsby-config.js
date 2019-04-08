@@ -3,7 +3,19 @@ module.exports = {
     title: `Deep Work Studio`,
     longTitle: `Deep Work Studio | Blockchain Design Studio`,
     description: `Releasing User-Focused Blockchain Products`,
-    author: `@deepwork_studio`
+    author: `@deepwork_studio`,
+    partners: [
+      `you`,
+      `dYdX`,
+      `Centrifuge`,
+      `Balance`,
+      `Ramp Network`,
+      `Nexus Mutual`,
+      `Wyre`,
+      `N26`,
+      `Contentful`,
+      `Uniswap`
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -10,6 +10,7 @@ const useSiteMetadata = () => {
             longTitle
             description
             author
+            partners
           }
         }
       }
