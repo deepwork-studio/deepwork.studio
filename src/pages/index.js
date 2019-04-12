@@ -170,6 +170,32 @@ const IndexPage = () => (
             </Link>
           </Flex>
         </Box>
+
+        <Box as="section" px={3}>
+          <Heading
+            as="h2"
+            fontFamily="sneak"
+            fontWeight="black"
+            color="text"
+            fontSize={[5, 6]}
+            lineHeight={1.2}
+            mb={4}
+          >
+            Check Us Out
+          </Heading>
+          <Flex flexDirection={["column", "row"]}>
+            <Link
+              mb={[3, 0]}
+              mr={[0, 4]}
+              href="https://github.com/deepwork-studio/"
+            >
+              GitHub
+            </Link>
+            <Link mb={[3, 0]} href="https://medium.com/deep-work-studio">
+              Medium
+            </Link>
+          </Flex>
+        </Box>
       </Grid>
     </Container>
   </Layout>
