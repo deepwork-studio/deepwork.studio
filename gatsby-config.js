@@ -14,7 +14,9 @@ module.exports = {
       `Wyre`,
       `N26`,
       `Contentful`,
-      `Uniswap`
+      `Uniswap`,
+      `Hummingbot`,
+      `Molecule`
     ]
   },
   plugins: [
