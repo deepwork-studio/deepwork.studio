@@ -74,6 +74,8 @@ const SEO = ({ description, lang, meta, title }) => {
       <script type="application/ld+json">
         {JSON.stringify(schemaOrgWebPage)}
       </script>
+      <script async defer src="https://cdn.noticeable.io/v1/noticeable-widget.js"></script>
+
     </Helmet>
   );
 };

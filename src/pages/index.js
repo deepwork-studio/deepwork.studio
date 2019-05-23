@@ -108,6 +108,29 @@ const IndexPage = () => (
           >
             Releasing User-Focused Blockchain Products
           </Heading>
+          <Box mt={4}>
+            <custom-style>
+              <style>{css`
+                #custom-noticeable-widget {
+                  --noticeable-widget-trigger-badge: {
+                    margin-left: 8px;
+                  };
+                  --noticeable-widget-trigger: {
+                    display: flex;
+                    align-items: center;
+                  }
+                }
+              `}</style>
+            </custom-style>
+            <noticeable-widget
+              id="custom-noticeable-widget"
+              access-token="IjSWYgreqMe4eyO1mIBt"
+              project-id="W7wKrH7u2YyOQSuGEDWz"
+              popup-backdrop="false"
+            >
+              <Link title="What's New">What's New</Link>
+            </noticeable-widget>
+          </Box>
         </Box>
 
         <Box as="section" px={3}>
