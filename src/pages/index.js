@@ -114,7 +114,7 @@ const IndexPage = () => (
                 #custom-noticeable-widget {
                   --noticeable-widget-trigger-badge: {
                     margin-left: 8px;
-                  };
+                  }
                   --noticeable-widget-trigger: {
                     display: flex;
                     align-items: center;
@@ -188,7 +188,7 @@ const IndexPage = () => (
             >
               @deepwork_studio
             </Link>
-            <Link href="https://www.notion.so/The-Deep-Work-Team-dbb0d5b926454f8b91db19cc1186087e">
+            <Link href="https://www.notion.so/deepworkstudio/Deep-Work-Studio-94bc13aa5776490281a86188986c431e">
               Meet the team on Notion
             </Link>
           </Flex>
