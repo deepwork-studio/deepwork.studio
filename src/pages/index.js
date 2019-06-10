@@ -108,7 +108,7 @@ const IndexPage = () => (
           >
             Releasing User-Focused Blockchain Products
           </Heading>
-          <Box mt={4}>
+          {/* <Box mt={4}>
             <custom-style>
               <style>{css`
                 #custom-noticeable-widget {
@@ -130,7 +130,7 @@ const IndexPage = () => (
             >
               <Link title="What's New">What's New</Link>
             </noticeable-widget>
-          </Box>
+          </Box> */}
         </Box>
 
         <Box as="section" px={3}>
